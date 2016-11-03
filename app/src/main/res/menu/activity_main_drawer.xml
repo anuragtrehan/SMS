@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+        <item
+           android:id="@+id/View"
+           android:title="View" />
+
+ </group>
+
+<group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Brand"
+
+            android:title="Brand" />
+        <item
+            android:id="@+id/Season"
+
+            android:title="Season" />
+        <item
+            android:id="@+id/Designer"
+
+            android:title="Designer" />
+
+        <item
+            android:id="@+id/Fabric_Code"
+
+            android:title="Fabric Code" />
+
+        <item
+            android:id="@+id/Lining_Code"
+
+            android:title="Lining Code" />
+        </group>
+
+        <item android:title="User">
+                <menu>
+        <item
+            android:id="@+id/Technical_Designer"
+
+            android:title="Technical Designer" />
+        <item
+            android:id="@+id/Production_Merchandiser"
+
+            android:title="Production Merchandiser" />
+        <item
+            android:id="@+id/Quality_Checker"
+
+            android:title="Quality Checker" />
+
+        <item
+            android:id="@+id/Vendor"
+
+            android:title="Vendor" />
+                </menu>
+        </item>
+</menu>
+    <!--android:icon="@drawable/ic_menu_camera"-->

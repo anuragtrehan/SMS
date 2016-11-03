@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:text="Date of request by qc"
+        android:id="@+id/date"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:text="Job order no"
+        android:id="@+id/job_order"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:text="Style no"
+        android:id="@+id/style_no"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:text="Stage"
+        android:id="@+id/stage"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:text="Vendor"
+        android:id="@+id/vendor"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:text="Measurement chart"
+        android:id="@+id/chart"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:gravity="center"/>
+</LinearLayout>

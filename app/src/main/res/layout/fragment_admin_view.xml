@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anurag.com.navdrawer.Fragment.AdminView">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P.P.S Trial List (Q/C)"
+            android:id="@+id/ppsqc"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="156dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P.P.S Trial List (R/D)"
+            android:id="@+id/ppstech"
+            android:layout_below="@+id/ppsqc"
+            android:layout_alignStart="@+id/ppsqc"
+            android:layout_marginTop="63dp" />
+    </RelativeLayout>
+</FrameLayout>

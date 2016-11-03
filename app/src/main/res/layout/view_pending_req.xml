@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="60">
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/date"
+        android:layout_weight="0"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/job_order"
+        android:layout_weight="0"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/style_no"
+        android:layout_weight="0"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/stage"
+        android:layout_weight="0"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/size"
+        android:layout_weight="0"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/name"
+        android:layout_weight="0"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:gravity="center"/>
+</LinearLayout>
